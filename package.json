@@ -1,0 +1,15 @@
+{
+  "name": "albumsmanager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pedro Machado",
+  "license": "ISC",
+  "description": "A simple album manager, for easier tracking of music albums of your favorite artists."
+}
