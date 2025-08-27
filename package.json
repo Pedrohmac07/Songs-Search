@@ -6,16 +6,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "tsx src/index.ts",
-    "test:watch": "tsx-watch src/index.ts",
+    "test": "tsx --env-file=.env src/index.ts",
+    "test:watch": "tsx watch --env-file=.env src/index.ts",
     "build": "tsup src",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node --env-file=.env dist/index.js"
   },
   "keywords": [],
   "author": "Pedro Machado",
   "license": "ISC",
   "description": "A simple album manager, for easier tracking of music albums of your favorite artists.",
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "tsup": "^8.5.0",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2"
