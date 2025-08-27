@@ -1,13 +1,15 @@
-# Album Manager 
+# Songs Search
 
-## Description 
-easy music albums access from your favorite artists!
+## Description
+
+easy music songs access from your favorite artists!
 
 # Features
-- Find music albums
+
+- Find songs by artist
 - List in Categories
   - [hip hop, pop, rock, experimental, indie]
-- filter songs by album name
+- filter songs by name
 
 # Implementation example
 
